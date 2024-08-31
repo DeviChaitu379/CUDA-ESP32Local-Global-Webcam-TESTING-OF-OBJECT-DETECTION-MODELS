@@ -8,7 +8,7 @@ NUMPY==1.21.6 (1.x)
 TENSORFLOW==2.10.1 (max compatible with win10native)(tensorflow-gpu not needed)
 CUDA==11.2 or 11.8
 cuDNN==8.9
-
+My system specs: Intel i7 9th gen with 16gbram and GPU GTX1650 4GB VRAM
 
 
       import tensorflow as tf
