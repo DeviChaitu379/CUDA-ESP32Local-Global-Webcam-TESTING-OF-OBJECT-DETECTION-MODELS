@@ -11,24 +11,24 @@ cuDNN==8.9
 
 
 
-import tensorflow as tf
-print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU'))) #>>gave 1 denoting that GPU was found
-print("TensorFlow built with CUDA: ", tf.test.is_built_with_cuda())  #>>gave True denoting Tensorflow build with CUDA support
+      import tensorflow as tf
+      print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU'))) #>>gave 1 denoting that GPU was found
+      print("TensorFlow built with CUDA: ", tf.test.is_built_with_cuda())  #>>gave True denoting Tensorflow build with CUDA support
 
 
 
-nvidia smi (can be used in terminal cmd to check stats of gpu usage)
+     nvidia smi (can be used in terminal cmd to check stats of gpu usage)
 
 
 
- import tensorflow as tf
+      import tensorflow as tf
 
-gpus = tf.config.list_physical_devices('GPU')
-try:
-    tf.config.set_visible_devices(gpus[0], 'GPU')  # Use the first GPU
-except RuntimeError as e:
-    # Visible devices must be set before GPUs have been initialized
-    print(e)
+     gpus = tf.config.list_physical_devices('GPU')
+     try:
+         tf.config.set_visible_devices(gpus[0], 'GPU')  # Use the first GPU
+     except RuntimeError as e:
+         # Visible devices must be set before GPUs have been initialized
+         print(e)
 
 
 
