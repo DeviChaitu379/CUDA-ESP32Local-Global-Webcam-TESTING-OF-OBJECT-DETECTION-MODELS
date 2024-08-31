@@ -49,12 +49,12 @@ except RuntimeError as e:
 
 4. **ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8**
    - Code: *saved model format type and label map inside code (ESP_COCO.py)*
-   - Output: Displays green boxes around identified objects with an accuracy above average. It can detect up to 90 objects, displaying a matching range of >0 to 1 for each object. The webcam version of this code has become more accurate than the ESP32 camera feed.
+   - Output: Displays green boxes around identified objects with an accuracy above average. It can detect up to 90 objects, displaying a matching range of >0 to 1 for each object. The webcam version of this code has become more accurate than the ESP32 camera feed (WEBCAM_COCO.py) .
 
 5. **efficientdet_d0_coco17_tpu-32**
-   - Code: *same as model 2 with same code (webcam version)*
+   - Code: *same as model 2 with same code (WEBCAM_COCO.py)*
    - Output: Similar to model 2, but it is more laggy and has a higher load on the GPU. However, it performs significantly better than model 2 in identifying objects at times.
 
 # Cloud TPU Testing:
 
-The ESP versions of these codes have been tested successfully with Google's Cloud TPUs. More information will be added soon.
+The ESP versions of these codes have been tested successfully with Google's Cloud TPUs. More information will be added soon. (ESP GLOBAL- converted the local ip into global ip for making use in google colab)
