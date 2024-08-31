@@ -1,4 +1,4 @@
-# CUDA-TESTING-OF-OBJECT-DETECTION-MODELS
+# CUDA-TESTING-OF-OBJECT-DETECTION-MODELS-ON ESP32 Local/Global and Webcam
 This is my test to observe and analyze the working of different object detection models on CUDA cores ,downloaded from Kaggle
 
 VERSIONS THAT ARE COMPATIBLE WITH EACHOTHER (DATE:AUGUST15th2024)
