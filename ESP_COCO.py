@@ -1,3 +1,6 @@
+###ESP VERSIOB PROGRAM FOR COCO MODELS-GPU CUDA###
+##The versions of libraries and cuda , required dependencies have been mentioned in the readme file##
+#note that the esp versions working (even is webcam versions work well) depends not only your gpu but the esp's image quality and the buffer speed of images
 import cv2
 import numpy as np
 import tensorflow as tf
